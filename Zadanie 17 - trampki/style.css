@@ -1,0 +1,10 @@
+fieldset {
+    padding: 10px;
+    margin: 10px;
+}
+body {
+    background-color: burlywood;
+}
+form {
+    background-color: bisque;
+}

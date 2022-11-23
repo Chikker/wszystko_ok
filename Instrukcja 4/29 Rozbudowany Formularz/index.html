@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Opiekun zwierząt w zoo</title>
+ <link href="ZookeeperForm.css" rel="stylesheet">
+</head>
+<body>
+<h1>Opiekun zwierząt w zoo</h1>
+<h2>Formularz podania o pracę</h2>
+<form action="#">
+ <p><i>Proszę wypełnić ten formularz. Obowiązkowe pola oznaczono znakiem
+</i><em>*</em>.</p>
+ <fieldset>
+ <legend>Dane kontaktowe</legend>
+ <label for="first_name">Imię <em>*</em></label>
+ <input id="first_name"><br>
+<label for="family_name">Nazwisko <em>*</em></label>
+ <input id="family_name"><br>
+ <label for="telephone">Nr telefonu</label>
+ <input id="telephone"><br>
+ <label for="email">E-mail <em>*</em></label>
+ <input id="email"><br>
+ </fieldset>
+ <fieldset>
+ <legend>Szczegółowe dane osobowe</legend>
+ <label for="age">Wiek <em>*</em></label>
+ <input id="age"><br>
+ <label for="gender">Płeć</label>
+ <select id="gender">
+ <option value="female">Kobieta</option>
+ <option value="male">Mężczyzna</option>
+ </select><br>
+ <label for="comments">Kiedy zdałaś/łeś sobie sprawę, że opiekun zwierząt to
+    zawód dla Ciebie?</label>
+     <textarea id="comments"></textarea>
+     </fieldset>
+     <fieldset>
+     <legend>Zaznacz swoje ulubione zwierzęta</legend>
+     <label for="zebra"><input id="zebra" type="checkbox"> zebra</label>
+     <label for="cat"><input id="cat" type="checkbox"> kot</label>
+     <label for="anaconda"><input id="anaconda" type="checkbox"> anakonda</label>
+     <label for="human"><input id="human" type="checkbox"> człowiek</label>
+     <label for="elephant"><input id="elephant" type="checkbox"> słoń</label>
+     <label for="horse"><input id="horse" type="checkbox"> koń</label>
+     <label for="pigeon"><input id="pigeon" type="checkbox"> gołąb</label>
+     <label for="crab"><input id="crab" type="checkbox"> krab</label>
+     </fieldset>
+     <p><input type="submit" value="Wyślij formularz"></p>
+    </form>
+    </body>
+    </html>
