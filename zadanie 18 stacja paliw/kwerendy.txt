@@ -1,1 +1,1 @@
-To jest zawartość pliku kwerendy.
+To jest zawartosc pliku kwerendy.
