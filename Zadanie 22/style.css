@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+header  {
+    background-color: black;
+    color: orange;
+  height: 90px;
+    text-align: center;
+    padding: 2px;
+}
+nav {
+    background-color: gray;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    height: 250px;
+}
+article {
+    background-color: yellow;
+    width: 70%;
+    float: right;
+    padding: 20px;
+}
+footer  {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    height:55px;
+}
+#strona {
+width: 1000px;
+    background-color: deepskyblue;
+
+}
