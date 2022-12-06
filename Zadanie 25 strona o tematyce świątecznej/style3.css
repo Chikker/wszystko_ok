@@ -1,0 +1,97 @@
+
+#content
+{
+
+    padding: 40px;
+    width: 730px;
+    background-color: #dedede;
+    min-height: 400px;
+    text-align: justify;
+    opacity: 0.7;
+
+}
+#nazwa
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-align: center;
+
+}
+body, html {
+    background-image: url("background-made-from-bricks.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+#menu
+{
+    background: linear-gradient(to bottom, #ffff99 0%, #ff3300 100%);
+    margin-top: 20px;
+    padding: 10px;
+    opacity: 0.9;
+    box-shadow: aqua 1px 1px 20px 2px;
+    color: aqua;
+    height: 120%;
+
+}
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.option:hover
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+.option
+{
+    float: left;
+    min-width: 50px;
+    height:25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+#logo
+{
+    color: white;
+    margin-top: 20px;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+    color: darkviolet;
+}
+#topbar
+{
+    background: linear-gradient(to bottom, #ff3300 0%, #ff99cc 100%);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 420px;
+    opacity: 0.9;
+    box-shadow: aqua 1px 1px 20px 2px;
+
+}
+#nazwamiko {
+    text-align: center;
+    font-size: larger;
+}
+#tekst
+{
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+
