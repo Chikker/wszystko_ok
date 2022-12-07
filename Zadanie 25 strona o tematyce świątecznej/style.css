@@ -66,7 +66,15 @@ body, html {
 	text-align: center;
 	border-right: 2px dotted #cccccc;
 }
-
+#obrazek2 {
+	width: 130px;
+	height: 130px;
+}
+#obrazek3 {
+	width: 130px;
+	height: 130px;
+	transform: scaleX(-1);
+}
 #obrazek
 {
 	float:right;
@@ -75,6 +83,8 @@ body, html {
 	text-align: center;
 	border-left: 2px dotted #cccccc;
 	display: flex;
+	height: 130px;
+
 }
 #topbarR
 {
@@ -102,7 +112,7 @@ body, html {
 #footer
 {
 	clear: both;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 20px;
 	font-size: 18px;
