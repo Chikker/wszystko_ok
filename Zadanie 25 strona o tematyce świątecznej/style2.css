@@ -128,11 +128,13 @@ body, html {
 }
 #logo
 {
+    background: linear-gradient(to bottom, #ff3300 0%, #ff99cc 100%);
     color: white;
     margin-top: 20px;
-    font-size: 44px;
+    font-size: 35px;
     letter-spacing: 3px;
     font-weight: 900;
     text-align: center;
+    opacity: 0.9;
 
 }
