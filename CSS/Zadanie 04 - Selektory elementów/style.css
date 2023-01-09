@@ -1,0 +1,41 @@
+html    {
+    background-color:lightcoral;
+}
+*  {
+    font-family: "Comic Sans MS";
+}
+h1 {
+    color: red;
+}
+h2  {
+    color: blue;
+}
+h3 {
+    color: green;
+}
+p.bomba {
+    font-size: larger;
+    color: crimson;
+    background-color: #9692B1;
+}
+#takiohasztag {
+    color: lightskyblue;
+}
+li > a {
+    text-decoration-color: red;
+    color: darkred;
+}
+p a {
+    text-decoration-color: green;
+    color: blueviolet;
+}
+h1 + p {
+    color: #128870;
+    font-family: "Arial Black";
+}
+h2 ~ p {
+    color: saddlebrown;
+    font-family: Dialog;
+    font-weight: bolder;
+    background-color: cornflowerblue;
+}
