@@ -1,0 +1,39 @@
+.przycisk {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.przycisk:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+.duzalitera:first-letter {
+    font-family: 'Times New Roman', serif;
+    font-size: 300%;
+    float: left;
+    padding-right: 5px;
+}
+.linia:first-line {
+    color: red;
+}
+.przed:before {
+    content: " \FFEB";
+}
+.po:after {
+    content: " \FF01";
+}
+.hover:hover {
+    background-color: yellow;
+}
+.link:link{
+    background-color: cornflowerblue;
+}
+.visited:visited{
+    background-color: green;
+}
+
