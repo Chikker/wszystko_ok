@@ -1,3 +1,6 @@
+html    {
+    background-color: burlywood;
+}
 .przycisk {
     width: 10em;
     height: 5ex;
@@ -35,5 +38,17 @@
 }
 .visited:visited{
     background-color: green;
+}
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:focus {
+    background-color: red;
+}
+
+select:focus {
+    background-color: ivory;
 }
 

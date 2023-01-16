@@ -1,0 +1,10 @@
+h2 {font-family: arial, verdana, sans-serif;}
+h3 {font-family: "Times New Roman", serif; font-style: italic;}
+h2 {font-variant: small-caps;}
+h3 {font-variant: normal;}
+p {font-family: arial, verdana, sans-serif;}
+td {font-family: arial, verdana, sans-serif; font-weight: bold;}
+h1 {font-size: 30px;}
+h2 {font-size: 12pt;}
+h3 {font-size: 120%;}
+p {font-size: 1em;}

@@ -1,0 +1,6 @@
+html {
+    background-image: url("plik.jpg");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    padding-top:180px;
+}
