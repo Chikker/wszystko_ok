@@ -95,3 +95,27 @@
 #cssmenu > ul > li > a:hover:after {
     background: #47c9af;
 }
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+div {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+hr {
+    color: black;
+    background-color: black;
+}
+
+p {
+    display: flex;
+}
+
+* {
+    margin: 0;
+}
