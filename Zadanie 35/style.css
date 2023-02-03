@@ -1,6 +1,6 @@
 body
 {
-	background-color: #303030;
+	background-color: darkslategray;
 	color: #ffffff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
@@ -18,19 +18,22 @@ body
 	padding: 40px 0;
 }
 
-.logo
+#logo
 {
-	width: 450px;
+
 	font-size: 48px;
 	margin-left: auto;
 	margin-right: auto;
-}
 
+}
+li:hover {
+	background-color:plum;
+}
 .nav
 { 
 	width: 100%;
 	padding: 10px 0;
-	background-color: #c34f4f;
+	background-color: dodgerblue;
 	text-align: center;
 	border-top: 1px solid #751b1b;
 	border-bottom: 1px solid #751b1b;
@@ -121,7 +124,7 @@ ol > li:hover > ul
 
 ol > li > ul > li
 {
-	background-color:#cf6969;
+	background-color:cornflowerblue;
 	position: relative;
 	z-index: 100;
 	border-top: 1px dashed #751b1b;
@@ -135,4 +138,7 @@ ol > li > ul > li:hover
 ol > li > ul > li:hover > a
 {
 	color: #451717;
+}
+strong:hover {
+	background-color: plum;
 }
