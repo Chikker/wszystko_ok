@@ -2,11 +2,13 @@ body
 {
 	background-color: darkslategray;
 	color: #ffffff;
-	font-family: 'Lato', sans-serif;
+	font-family: Georgia;
 	font-size: 20px;
-	margin: 0 !important;
+	margin: 10px;
 }
-
+p {
+	font-family:;
+}
 .wrapper
 {
 	width: 100%;
@@ -141,4 +143,7 @@ ol > li > ul > li:hover > a
 }
 strong:hover {
 	background-color: plum;
+}
+li {
+	font-family: "Comic Sans MS";
 }
