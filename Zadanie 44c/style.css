@@ -1,0 +1,59 @@
+* {
+    background-color: #EEEEEE;
+}
+#kontener {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#logo  {
+    width: 400px;
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left ;
+}
+img {background-color: transparent;}
+#menu{
+    width: 600px;
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+float: right;
+}
+
+#baner{
+    background-color: #DDDDDD;
+    height: 200px;
+    padding-top: 120px;
+}
+#blokglowny {
+    margin:50px;
+    }
+#stopka  > p {
+text-align: right;
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a {
+    background-color: #C0C0C0;
+    color: #555555;
+    margin: 50px;
+   font-size: 200%;
+    text-decoration: none;
+}
+hr {
+    background-color: #C0C0C0;
+    width: 70%;
+   border: 2px solid #C0C0C0;
+}
+table {
+    text-align: left;
+}
+strong  {
+    background-color: #C0C0C0;
+}
