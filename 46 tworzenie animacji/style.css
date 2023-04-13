@@ -1,0 +1,21 @@
+img {
+    width: 400px;
+    height: 500px;
+}
+body {
+    background-color: #6a3d37;
+    text-align: center;
+}
+footer {
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    background-color: lightgray;
+
+    opacity:60%;
+}
+#main {
+    height: 100px;
+    background-color: lightgray;
+    opacity: 50%;
+}
