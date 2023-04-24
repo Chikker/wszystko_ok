@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+#container {
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+}
+
+#left-menu {
+    width: 200px;
+    height: 650px;
+    background-color: aquamarine;
+    float: left;
+    padding-top: 10px;
+}
+
+#content {
+    background-color: white;
+    float: right;
+    text-align: center;
+}
+
+#content1 {
+    background-color: chartreuse;
+    float: right;
+    text-align: center;
+}
+#content1 p {
+    margin-top: 20px;
+}
+#stopa {
+    width: 1200px;
+    height: 80px;
+    background-color: cyan;
+    text-align: center;
+    float: bottom;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
