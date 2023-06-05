@@ -1,8 +1,21 @@
 ﻿
+.footer {
+    grid-column: 1/-1;
+}
+
+
+
+/* ponizej jest do konetenera */
 .container {
     height: 100%;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40px 40px;
+    grid-template-rows: repeat(2, 40px);
 }
+/* główka */
+.header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
