@@ -5,3 +5,31 @@
     color: white;
     padding: 10px;
 }
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}
+body{
+    margin-right: 12px;
+    background-color: #c9a26b;
+    font-size: 19px;
+    margin-left: 12px;
+}
+td ,tr, table  {
+    border: 1px solid;
+}
+
+
+table{
+
+    text-align: center;
+    width: 80%;
+
+
+    background-color: #deb879 ;
+
+}
