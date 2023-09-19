@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Średnia arytmetyczna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Zadanie 02</h1>
+  <h2>Autor: Dominik Walenczak 2p/2</h2>
+  <p>Napisz program, który dla czterech liczb rzeczywistych oblicza i wyświetla ich średnią arytmetyczną. WYnik wyświetl w dwóch postaciach. Bez zaokrąglenia oraz z zaokrągleniem do trzech miejsc po przecinku.</p>
+  <hr>
+</header>
+<section>
+  <script>
+    let a = prompt("Podaj liczbę a: ", "")
+    a = parseInt(a);
+    let b = prompt("Podaj liczbę b: ", "")
+    b = parseInt(b)
+    let c = prompt("Podaj liczbę c: ", "")
+    c = parseInt(c)
+    let d = prompt("Podaj liczbę d: ", "")
+    d = parseInt(d)
+
+    let suma = a+b+c+d;
+    let srednia = suma/4;
+    document.write("a wynosi: "+a+ "<br> b wynosi: "+b+"<br> c wynosi: "+c+"<br> d wynosi: "+d+"<br> Suma wynosi: "+suma+" <br>Srednia wynosi: "+srednia)
+    console.log(suma)
+  </script>
+</section>
+</body>
+</html>
