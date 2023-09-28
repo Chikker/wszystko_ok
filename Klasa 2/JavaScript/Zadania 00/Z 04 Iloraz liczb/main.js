@@ -1,8 +1,13 @@
-let a = prompt("Podaj liczbę a: ", "0")
-a = parseInt(a);
-let b = prompt("Podaj liczbę b: ", "0")
-b = parseInt(b)
+const liczba1 = document.querySelector('#liczba1');
+const liczba2 = document.querySelector('#liczba2');
+const wynik = document.querySelector('#wynik');
+const btn = document.querySelector('button');
 
-let iloczyn = a/b;
-console.log(iloczyn)
-document.write("<b>Iloraz tych dwóch liczb wynosi: "+iloczyn.toFixed(2)+"</b>")
+btn.addEventListener("click",function () {
+    let a = liczba1.value;
+    let b = liczba2.value;
+    let iloraz = a/b;
+
+
+    wynik.innerHTML = 'Iloraz danych liczb wynosi: '+iloraz.toFixed(2);
+})
