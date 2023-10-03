@@ -1,0 +1,13 @@
+body {
+    background-color: lightgreen;
+    color: black;
+    margin: 30px;
+    font-family: Arial;
+}
+header {
+    background-color: #c34f4f;
+text-align: center;
+}
+#srodek {
+    text-align: center;
+}

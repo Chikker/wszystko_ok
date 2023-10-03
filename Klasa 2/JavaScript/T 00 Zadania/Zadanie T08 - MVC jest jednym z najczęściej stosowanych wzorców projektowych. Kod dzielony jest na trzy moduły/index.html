@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T08 - MVC jest jednym z najczęściej stosowanych wzorców projektowych. Kod dzielony jest na trzy moduły.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Zadanie T08</h1> <br>
+    <h2>Autor: Dominik Walenczak 2p_2</h2>
+</header>
+<div id="srodek">
+ <h2>Co to MVC?</h2> <br>
+    <p><b>MVC</b> (ang. Model-View-Controller) jest jednym z najczęściej stosowanych wzorców
+        projektowych w aplikacjach internetowych. Głównym założeniem tego wzorca jest
+        podzielenie kodu aplikacji na trzy moduły:</p>
+    <ul>
+        <li>Model — reprezentuje dane (na przykład pobierane z bazy danych).</li>
+        <li>Widok — reprezentuje interfejs użytkownika</li>
+        <li>Kontroler — reprezentuje logikę sterującą aplikacją.</li>
+    </ul>
+    <br>
+    <h2>
+        Model
+    </h2>
+    <p><b>Model</b> zapewnia zestandaryzowany sposób dostępu do danych. Najczęściej stosowany
+        jest do pobierania i modyfikowania rekordów z bazy danych. Pozostała część aplikacji
+        staje się niezależna od tego, skąd i w jaki sposób dane są pobierane. Dane mogą być
+        pobierane z różnych źródeł (na przykład z bazy lub pliku) i nie jest to istotne pod
+        kątem logiki sterującej aplikacji. Tworząc tę logikę, wywołujemy tylko odpowiednie
+        funkcje modelu i w wyniku dostajemy dane do przetworzenia. Model jest elementem
+        opcjonalnym, gdyż nie zawsze korzystamy z danych pobieranych z bazy czy plików.</p>
+    <h2>Widok</h2>
+    <p><b>Widok</b> reprezentuje to, co będzie widoczne dla użytkownika. Widok oddzielony od
+        logiki aplikacji pozwala na bezproblemową zmianę oprawy graficznej w dowolnym
+        momencie. Zadaniem kontrolera jest przekazanie danych do widoku. Programista
+        tworzący widok nie musi nic wiedzieć na temat logiki programu. Otrzymuje on tylko
+        dane, które należy sformatować. Widok można zmienić, nie ingerując w kod programu.
+    </p>
+    <br>
+    <h2>Kontroler</h2>
+    <p><b>Kontroler</b> zawiera najważniejszą część kodu, która steruje aplikacją. Odpowiada między
+        innymi za przetwarzanie danych pobranych za pomocą modelu i przekazanie ich poprzez
+        widok użytkownikowi, a także za wykonywanie odpowiednich akcji w zależności od
+        działań użytkownika.
+        Zaletą korzystania ze wzorca MVC jest uzyskanie gotowej struktury aplikacji oraz
+        uporządkowanie struktury kodu szczególnie przy tworzeniu dużych aplikacji. Wzorzec
+        ten pozwala też na uniknięcie problemów ze znalezieniem określonej funkcjonalności.
+        Umożliwia stosowanie jasnego podziału prac nad projektem. Zmiana bazy danych czy
+        wyglądu strony przestaje być problemem.
+        Wzorzec MVC często jest traktowany jako wzorzec złożony, który może być rozbijany na
+        prostsze wzorce. Na bazie wzorca MVC powstało również wiele wzorców pochodnych.
+        Obecnie częściej stosowane są wzorce pochodne niż oryginalny wzorzec.
+        Jedną z pierwszych adaptacji MVC na potrzeby środowiska WWW była platforma Struts
+        przeznaczona dla technologii Java Server Pages.
+        Firma Microsoft wykorzystuje adaptację MVC zbudowaną na bazie technologii ASP.NET
+        w postaci platformy ASP.NET MVC, która umożliwia tworzenie aplikacji z uwzględnieniem wyraźnie odseparowanych modeli, kontrolerów oraz widoków. Platforma ta
+        udostępnia dużą liczbę specyficznych rozszerzeń oraz konstrukcji programistycznych.
+        Istnieje wiele frameworków wspomagających programowanie i udostępniających gotową architekturę opartą na MVC. Należą do nich: Zend Framework, Code Igniter,
+        CakePHP, Symfony</p>
+</div>
+</body>
+</html>
