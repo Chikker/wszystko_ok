@@ -5,10 +5,8 @@ const btn = document.querySelector('button');
 btn.addEventListener('click',function () {
     let A = parseFloat(liczba1.value);
 
-    let b = A /60;
-    let h = Math.floor(A / 3600);
-   let m = Math.floor(b%60);
-   let s = A-h.toFixed(0)*3600-m*60;
+
+    let c = A/0.039370;
    console.log(A);
-   wynik.innerHTML= h.toFixed(0)+" godzin "+m+" minut "+s+" sekund";
+   wynik.innerHTML=A+" Cali to "+c.toFixed(2)+" mm";
 })
