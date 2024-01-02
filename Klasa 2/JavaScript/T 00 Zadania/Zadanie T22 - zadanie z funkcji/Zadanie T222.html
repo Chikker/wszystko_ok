@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Potęgowanie</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<input type="number" id="x" placeholder="Podaj x">
+<input type="number" id="y" placeholder="Podaj y">
+<button id="button">Oblicz potęgę</button>
+<div id="wynik"></div>
+
+<script>
+    const btn = document.querySelector('#button');
+    const wynik = document.querySelector('#wynik');
+
+    function potega(x, y){
+        let potega = 1;
+        for (let i = 0; i < y; i++){
+            potega *= x;
+        }
+        return potega;
+    }
+
+    btn.addEventListener('click', () => {
+        let x = parseInt(document.querySelector('#x').value);
+        let y = parseInt(document.querySelector('#y').value);
+        wynik.innerHTML = `x = ${x}<br>
+                               y = ${y}<br>
+                               x<sup>y</sup> = ${x}<sup>${y}</sup> = ${potega(x, y)}`;
+    });
+</script>
+</body>
+</html>

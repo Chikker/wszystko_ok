@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Wartosc bezwzgledna</title>
+    <script>
+        function obliczWartoscBezwzgledna() {
+            var liczba = parseFloat(document.getElementById("liczba").value);
+            var wynik = (liczba >= 0) ? liczba : -liczba;
+
+            document.getElementById("wynikBezwzgledna").innerHTML = "Wartosc bezwzgledna liczby " + liczba + " to: " + wynik;
+        }
+    </script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Obliczanie wartosci bezwzglsdnej</h2>
+<label>Podaj liczbe:</label>
+<input type="number" id="liczba">
+<br><br>
+<button onclick="obliczWartoscBezwzgledna()">Oblicz</button>
+<p id="wynikBezwzgledna"></p>
+</body>
+</html>
