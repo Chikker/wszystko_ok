@@ -9,5 +9,8 @@ body {
     padding-top: 40px;
     color: red;
     font-size: large;
-
+    text-align: center;
+}
+.bomba  {
+    margin-left:690px;
 }
