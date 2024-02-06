@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T24b - płeć na podstawie imienia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Zadanie T24b - płeć na podstawie imienia</h1>
+    <h2>Autor: Dominik Walenczak 2p/2</h2>
+    <p>
+        Program na podstawie podanego imienia użytkownika określa jego płeć.
+        <br>
+        Uwaga 1: Należy zbadać ostatnią literę imienia. Jeśli jest ona równa 'a', to mamy do czynienia z kobietę. Wyjątek stanowią Kuba i Barnaba.
+        <br>
+        Uwaga 2: wczytane znaki imienia zamień na małe litery. Ograniczy to ilość sprawdzanych warunków. </p>
+    <hr>
+</header>
+<h1>Określanie płci</h1>
+<label for="imie">Podaj imię: </label>
+<input type="text" id="imie" />
+<button onclick="sprawdzPlec()">Sprawdź płeć</button>
+<section id="wynik">
+    <script src="main.js"></script>
+</section>
+</body>
+</html>
