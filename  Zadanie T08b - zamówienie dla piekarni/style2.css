@@ -1,0 +1,85 @@
+/* Ogólne stylizacje */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wynik {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Stylizacje tabeli */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px dashed #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    color: #555;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Styl dla łącznej ceny */
+tr:last-child td {
+    font-weight: bold;
+    color: #333;
+    border-top: 2px solid #ccc;
+}
+
+tr:last-child td:nth-child(3) {
+    text-align: right;
+}
+
+/* Styl dla łącznej ceny */
+tr:last-child td:last-child {
+    font-size: 1.1em;
+    color: #e74c3c;
+}
+
+/* Stylizacja tabeli na wzór paragonu */
+table tr:first-child th {
+    border-top: 2px solid #ccc;
+}
