@@ -1,0 +1,99 @@
+/* Reset stylów domyślnych */
+body, h1, h2, h3, p, form, input, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja całej strony */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #d2691e;
+}
+
+header h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;
+}
+
+hr {
+    border: 1px solid #d2691e;
+    margin: 20px 0;
+}
+
+/* Stylizacja sekcji produktów */
+.produkty {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.produkty h2 {
+    color: #d2691e;
+    margin-bottom: 20px;
+}
+
+.produkty img {
+    width: 200px; /* Ustawia szerokość obrazu */
+    height: 200px; /* Ustawia wysokość obrazu */
+    object-fit: cover; /* Utrzymuje obraz w kwadracie */
+    margin: 10px;
+    border-radius: 15px; /* Zaokrąglone rogi */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efekt podświetlenia przy najechaniu */
+.produkty img:hover {
+    transform: scale(1.05); /* Powiększenie obrazu */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Większy cień */
+}
+/* Stylizacja formularza zamówień */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #d2691e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form input[type="submit"]:hover {
+    background-color: #c25c1d;
+}
