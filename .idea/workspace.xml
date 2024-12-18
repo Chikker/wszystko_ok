@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be53463-b52a-4252-866b-726341b23179" name="Changes" comment="halo galo">
-      <change afterPath="$PROJECT_DIR$/TP30 - zadania z tablic/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP30 - zadania z tablic/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie T09 - tablica asocjacyjna/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie T09 - tablica asocjacyjna/style.css" afterDir="false" />
+    <list default="true" id="1be53463-b52a-4252-866b-726341b23179" name="Changes" comment="halo galo223">
+      <change afterPath="$PROJECT_DIR$/Zadanie T12a - zadanie maturalne/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie T12a - zadanie maturalne/liczby.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie T12a - zadanie maturalne/przyklad.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie T12a - zadanie maturalne/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP30 - zadania z tablic/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP30 - zadania z tablic/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +58,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/3p02/PhpstormProjects/untitled/TP30 - zadania z tablic&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/3p02/PhpstormProjects/untitled/Zadanie T12a - zadanie maturalne",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\3p02\PhpstormProjects\untitled\Zadanie T12a - zadanie maturalne" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\TP30 - zadania z tablic" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\Zadanie T09 - tablica asocjacyjna" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\ Zadanie T08b - zamówienie dla piekarni" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\zadania\Zadanie 06 - pole Herona - wersja ostateczna" />
-      <recent name="C:\Users\3p02\PhpstormProjects\untitled\zadania" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\3p02\PhpstormProjects\untitled\Zadanie T12a - zadanie maturalne" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\ Zadanie T08b - zamówienie dla piekarni\img" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\zadania\Z02 - obliczanie średniej arytmetycznej" />
       <recent name="C:\Users\3p02\PhpstormProjects\untitled\zadania\Z30 - ułamek właściwy" />
@@ -129,7 +131,10 @@
       <workItem from="1731060716821" duration="510000" />
       <workItem from="1731061242152" duration="98000" />
       <workItem from="1732100262345" duration="1596000" />
-      <workItem from="1732101870158" duration="314000" />
+      <workItem from="1732101870158" duration="375000" />
+      <workItem from="1732268795593" duration="1839000" />
+      <workItem from="1734084698675" duration="715000" />
+      <workItem from="1734519688287" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="halo">
       <option name="closed" value="true" />
@@ -147,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730287739544</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="halo galo223">
+      <option name="closed" value="true" />
+      <created>1732102240085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732102240085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="halo" />
     <MESSAGE value="halo galo" />
-    <option name="LAST_COMMIT_MESSAGE" value="halo galo" />
+    <MESSAGE value="halo galo223" />
+    <option name="LAST_COMMIT_MESSAGE" value="halo galo223" />
   </component>
 </project>
